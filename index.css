@@ -1,0 +1,68 @@
+body {
+    background: #FFFFFF url("img/piupiu.jpeg") no-repeat right top fixed;
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    text-align: center;
+}
+
+#messages{
+    padding-bottom: 30%;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    background-color: #FF0657;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    width: 70%;
+    
+}
+
+li span {
+    font-style: italic;
+    font-weight: bolder;
+    color: #F1B8C9;
+}
+
+#chat {
+    width: 80%;
+    margin: 0px;
+}
+
+#message-form {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #b7b5b9;
+}
+
+input {
+    width: 70%;
+    height: 30px;
+}
+
+button {
+    width: 25%;
+    height: 38px;
+    background: #FFFFFF url("img/direto.png") no-repeat right top fixed;
+}
+
+.sent {
+    text-align: right;
+    background-color: #000000;
+    margin-left: 50%;
+}
+
+.sent span {
+    margin-left: 0px;
+    color: #FF0657;
+}
